@@ -1,6 +1,9 @@
 package gomodone
 
-import "fmt" 
+import (
+    "fmt"
+    "errors"
+    ) 
 
 // say Hi to someone
 func SayHi(name, lang string) (string, error) {
